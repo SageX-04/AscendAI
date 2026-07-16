@@ -8,9 +8,7 @@ function Navbar() {
         Ascend<span>AI</span>
       </div>
 
-
       <ul className="nav-links">
-
         <li>
           <a href="#features">Features</a>
         </li>
@@ -22,13 +20,17 @@ function Navbar() {
         <li>
           <a href="#about">About</a>
         </li>
-
       </ul>
 
+      <div className="nav-actions">
+        <button className="login-btn">
+          Login
+        </button>
 
-      <button className="login-btn">
-        Get Started
-      </button>
+        <button className="start-btn">
+          Get Started
+        </button>
+      </div>
 
     </nav>
   );
