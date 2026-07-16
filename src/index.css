@@ -1,0 +1,38 @@
+/* ===== GLOBAL RESET ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #020617;
+  --bg-secondary: #0f172a;
+  --card: rgba(255,255,255,0.05);
+
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+
+  --text: #f8fafc;
+  --text-secondary: #cbd5e1;
+
+  --radius: 16px;
+  --transition: 0.3s ease;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}

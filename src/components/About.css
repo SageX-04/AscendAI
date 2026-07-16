@@ -1,0 +1,160 @@
+.about {
+
+  padding:100px 8%;
+
+  background:#020617;
+
+  color:white;
+
+}
+
+
+
+/* Header */
+
+
+.about-header {
+
+  max-width:850px;
+
+  margin:auto;
+
+  text-align:center;
+
+}
+
+
+
+.about-header h2 {
+
+  font-size:3rem;
+
+  line-height:1.2;
+
+  margin:20px 0;
+
+}
+
+
+
+.about-header h2 span {
+
+  color:#3b82f6;
+
+}
+
+
+
+.about-description {
+
+  color:#cbd5e1;
+
+  font-size:1.1rem;
+
+  line-height:1.8;
+
+}
+
+
+
+/* Values */
+
+
+.values-grid {
+
+  margin-top:60px;
+
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+
+  gap:30px;
+
+}
+
+
+
+.value-card {
+
+  padding:40px;
+
+
+  border-radius:25px;
+
+
+  background:
+  rgba(255,255,255,0.05);
+
+
+  border:
+  1px solid rgba(255,255,255,0.1);
+
+
+  transition:0.3s;
+
+}
+
+
+
+.value-card:hover {
+
+  transform:translateY(-10px);
+
+
+  border-color:#3b82f6;
+
+
+  box-shadow:
+  0 15px 40px rgba(59,130,246,0.15);
+
+}
+
+
+
+.value-card h3 {
+
+  font-size:2rem;
+
+  color:#3b82f6;
+
+  margin-bottom:15px;
+
+}
+
+
+
+.value-card p {
+
+  color:#cbd5e1;
+
+  line-height:1.7;
+
+}
+
+
+
+/* Mobile */
+
+
+@media(max-width:900px){
+
+
+.values-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.about-header h2{
+
+font-size:2.3rem;
+
+}
+
+
+}
