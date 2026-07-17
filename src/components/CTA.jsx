@@ -2,7 +2,7 @@ import "./CTA.css";
 
 function CTA() {
   return (
-    <section className="cta">
+    <section className="cta" id="join">
 
       <h2>
         Ready To Build Your AI Future?
@@ -13,9 +13,11 @@ function CTA() {
         future-ready skills and career growth.
       </p>
 
-      <button className="cta-btn">
-        Join AscendAI
-      </button>
+     <a href="#join">
+        <button className="cta-btn">
+            Join AscendAI
+        </button>
+     </a>
 
     </section>
   );

@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Roadmap from "./components/Roadmap";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import CTA from "./components/CTA";
 
 import "./App.css";
 
@@ -18,8 +19,8 @@ function App() {
         <Features />
         <Roadmap />
         <About />
+        <CTA/>
       </main>
-
       <Footer />
 
     </div>
