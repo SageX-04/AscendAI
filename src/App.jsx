@@ -1,29 +1,25 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Roadmap from "./components/Roadmap";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import CTA from "./components/CTA";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import "./App.css";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <div className="app">
+    <BrowserRouter>
+      <Routes>
 
-      <Navbar />
+        <Route path="/" element={<Home />} />
 
-      <main>
-        <Hero />
-        <Features />
-        <Roadmap />
-        <About />
-        <CTA/>
-      </main>
-      <Footer />
+        <Route path="/login" element={<Login />} />
 
-    </div>
+        <Route path="/signup" element={<Signup />} />
+
+        <Route path="/dashboard" element={<Dashboard />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
